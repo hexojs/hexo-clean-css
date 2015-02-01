@@ -21,6 +21,7 @@
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^2.9.4",
     "clean-css": "^3.0.8",
     "minimatch": "^2.0.1",
     "object-assign": "^2.0.0"
