@@ -1,6 +1,6 @@
 {
   "name": "hexo-clean-css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Minify CSS files with clean-css.",
   "main": "index",
   "scripts": {
@@ -18,12 +18,15 @@
     "filter",
     "uglify"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",  
+  "maintainers": [
+    "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)"
+    ],
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.4",
     "clean-css": "^3.0.8",
-    "minimatch": "^2.0.1",
+    "minimatch": "^3.0.1",
     "object-assign": "^2.0.0"
   },
   "devDependencies": {
