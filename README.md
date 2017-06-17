@@ -15,8 +15,10 @@ $ npm install hexo-clean-css --save
 clean_css:
   exclude: 
     - *.min.css
+  priority:
 ```
 
-- **exclude**: Exclude files
+- `exclude`: Exclude files
+- `priority`: Plugin priority
 
 [clean-css]: https://github.com/jakubpawlowicz/clean-css
