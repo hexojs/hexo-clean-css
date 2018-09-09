@@ -1,6 +1,4 @@
-var assign = require('object-assign');
-
-hexo.config.clean_css = assign({
+hexo.config.clean_css = Object.assign({
   exclude: ['*.min.css']
 }, hexo.config.clean_css);
 
