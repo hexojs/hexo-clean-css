@@ -38,7 +38,7 @@
     "gulp-mocha": "^6.0.0",
     "jshint": "^2.9.6",
     "jshint-stylish": "^2.2.1",
-    "mocha": "^5.2.0",
+    "mocha": "^6.0.2",
     "rimraf": "^2.6.2"
   }
 }
