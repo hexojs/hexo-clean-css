@@ -14,7 +14,7 @@ gulp.task('coverage:clean', function(callback){
   rirmaf('coverage', callback);
 });
 
-gulp.task('mocha', ['coverage'], function(){
+gulp.task('mocha', gulp.parallel('coverage'), function(){
   return gulp.src('test/index.js')
     .pipe($.mocha({
       reporter: 'spec'
@@ -34,4 +34,4 @@ gulp.task('watch', function(){
   gulp.watch(['test/index.js'], ['mocha']);
 });
 
-gulp.task('test', ['mocha', 'jshint']);
+gulp.task('test', gulp.series('mocha', 'jshint'));
