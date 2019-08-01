@@ -11,9 +11,6 @@
   "directories": {
     "lib": "./lib"
   },
-  "engines": {
-    "node": ">= 6"
-  },
   "repository": "hexojs/hexo-clean-css",
   "keywords": [
     "hexo",
