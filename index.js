@@ -1,3 +1,7 @@
+'use strict';
+
+/* global hexo */
+
 hexo.config.clean_css = Object.assign({
   exclude: ['*.min.css']
 }, hexo.config.clean_css);
