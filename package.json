@@ -1,6 +1,6 @@
 {
   "name": "hexo-clean-css",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Minify CSS files with clean-css.",
   "main": "index.js",
   "scripts": {
