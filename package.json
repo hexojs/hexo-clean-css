@@ -26,14 +26,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.5.5",
     "clean-css": "^4.2.1",
     "micromatch": "^4.0.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.1.0",
-    "eslint-config-hexo": "^4.0.0",
+    "eslint-config-hexo": "^4.1.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1"
   },
