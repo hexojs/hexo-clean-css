@@ -26,7 +26,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "clean-css": "^4.2.1",
+    "clean-css": "^5.1.2",
     "micromatch": "^4.0.2"
   },
   "devDependencies": {
