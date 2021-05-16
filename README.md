@@ -1,6 +1,5 @@
 # hexo-clean-css
 
-[![Build Status](https://travis-ci.org/hexojs/hexo-clean-css.svg?branch=master)](https://travis-ci.org/hexojs/hexo-clean-css)
 [![NPM version](https://badge.fury.io/js/hexo-clean-css.svg)](https://www.npmjs.com/package/hexo-clean-css)
 
 Minify CSS files with [clean-css].

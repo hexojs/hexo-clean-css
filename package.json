@@ -1,6 +1,6 @@
 {
   "name": "hexo-clean-css",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Minify CSS files with clean-css.",
   "main": "index.js",
   "scripts": {
@@ -27,16 +27,16 @@
   "license": "MIT",
   "dependencies": {
     "clean-css": "^5.1.2",
-    "micromatch": "^4.0.2"
+    "micromatch": "^4.0.4"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^7.1.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.26.0",
     "eslint-config-hexo": "^4.1.0",
-    "mocha": "^8.0.1",
-    "nyc": "^15.0.0"
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0"
   },
   "engines": {
-    "node": ">= 8.6.0"
+    "node": ">= 10.18.1"
   }
 }
