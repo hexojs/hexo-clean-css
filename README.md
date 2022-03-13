@@ -15,7 +15,7 @@ $ npm install hexo-clean-css --save
 ``` yaml
 clean_css:
   exclude: 
-    - *.min.css
+    - '*.min.css'
 ```
 
 - **exclude**: Exclude files
