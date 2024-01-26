@@ -30,7 +30,7 @@
     "micromatch": "^4.0.4"
   },
   "devDependencies": {
-    "chai": "^4.3.4",
+    "chai": "^5.0.3",
     "eslint": "^8.9.0",
     "eslint-config-hexo": "^5.0.0",
     "mocha": "^10.2.0",
