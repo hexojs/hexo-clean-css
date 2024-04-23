@@ -4,10 +4,7 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-  open-pull-requests-limit: 20
-  ignore:
-  - dependency-name: clean-css
-    versions:
-    - 5.0.1
-    - 5.1.0
-    - 5.1.1
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
